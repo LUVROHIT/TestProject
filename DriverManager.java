@@ -10,7 +10,7 @@ public class DriverManager extends ChromeLauncher
 	{
 		if(driver==null)
 		{
-			driver=setdriver();
+			driver=set_driver();
 			return driver;		
 		}
 		
@@ -20,7 +20,7 @@ public class DriverManager extends ChromeLauncher
 		}
 	}
 	
-	public WebDriver setdriver()
+	public WebDriver set_driver()
 	{
 		 driver=launcher();
 		 return driver;
